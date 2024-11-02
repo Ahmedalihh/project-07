@@ -1,0 +1,20 @@
+span {
+  color: brown;
+}
+.text {
+  color: rgb(105, 154, 56);
+}
+#name {
+  color: blueviolet;
+}
+#and {
+  color: coral;
+}
+.part {
+  color: blue;
+  background-color: rgb(206, 165, 165);
+}
+* {
+  background: scroll;
+  background-color: rgb(246, 241, 241);
+}

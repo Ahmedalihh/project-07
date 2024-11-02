@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <span>
+      <fieldset>
+        <legend>Information Form</legend>
+        <form>
+          <span class="text">
+            <label for="">Name</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="">Email</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="">Gender</label>
+            <br />
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender" />
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender" />
+          </span>
+          <br />
+          <div id="name">
+            <label for="">Feedback</label>
+            <br />
+            <textarea rows="5" cols="10" placeholder="Feedback"> </textarea>
+          </div>
+
+          <span id="and">
+            <label for="">password</label>
+            <br />
+            <input type="password" />
+          </span>
+          <br />
+          <br />
+          <span class="part">
+            <button class="part">Submit</button>
+          </span>
+        </form>
+      </fieldset>
+    </span>
+  </body>
+</html>
